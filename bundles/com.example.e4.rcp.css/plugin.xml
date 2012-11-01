@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/default.css"
+            id="com.example.e4.rcp.css.standardtheme"
+            label="Standard">
+      </theme>
+      <theme
+            basestylesheeturi="css/red.css"
+            id="com.example.e4.rcp.css.redtheme"
+            label="Red">
+      </theme>
+      <theme
+            basestylesheeturi="css/eclipse-default.css"
+            id="com.example.e4.rcp.css.eclipsetheme"
+            label="Eclipse">
+      </theme>
+   </extension>
+   <extension
+         id="id1"
+         point="org.eclipse.e4.workbench.model">
+      <fragment
+            uri="fragment.e4xmi">
+      </fragment>
+   </extension>
+
+</plugin>

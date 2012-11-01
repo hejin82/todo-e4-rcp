@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: File Browser
+Bundle-SymbolicName: com.example.e4.filebrowser;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: javax.inject;bundle-version="1.0.0",
+ org.eclipse.e4.core.di;bundle-version="1.1.0",
+ org.eclipse.swt;bundle-version="3.100.0",
+ org.eclipse.jface;bundle-version="3.8.0"
+Bundle-Vendor: EXAMPLE

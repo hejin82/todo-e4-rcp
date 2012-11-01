@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ASCII"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_oZBbsAJeEeK56O3_zjNDtA" elementId="treeviewer.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_pX6F0AJeEeK56O3_zjNDtA" elementId="treeviewer.trimmedwindow.0" label="FileViewer">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_rNZn0AJeEeK56O3_zjNDtA" elementId="treeviewer.perspectivestack.0">
+      <children xsi:type="advanced:Perspective" xmi:id="_rkOMYAJeEeK56O3_zjNDtA" elementId="treeviewer.perspective.0">
+        <children xsi:type="basic:PartStack" xmi:id="_3hhE0AJeEeK56O3_zjNDtA" elementId="treeviewer.partstack.0">
+          <children xsi:type="basic:Part" xmi:id="_4KjawAJeEeK56O3_zjNDtA" elementId="treeviewer.part.0" contributionURI="bundleclass://com.example.e4.filebrowser/com.example.e4.filebrowser.parts.FileViewer" label="FileViewer"/>
+        </children>
+      </children>
+    </children>
+  </children>
+  <addons xmi:id="_oZBbsQJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_oZBbsgJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_oZBbswJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_oZBbtAJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_oZBbtQJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_oZBbtgJeEeK56O3_zjNDtA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

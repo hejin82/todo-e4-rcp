@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Css
+Bundle-SymbolicName: com.example.e4.rcp.css;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EXAMPLE
+Require-Bundle: org.eclipse.e4.ui.css.swt.theme,
+ org.eclipse.e4.core.di,
+ javax.inject,
+ org.eclipse.e4.ui.workbench
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

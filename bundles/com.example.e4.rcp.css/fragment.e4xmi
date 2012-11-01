@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fragment:ModelFragments xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:commands="http://www.eclipse.org/ui/2010/UIModel/application/commands" xmlns:fragment="http://www.eclipse.org/ui/2010/UIModel/fragment" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_-V4EgAslEeKyDYBuDnIhzA">
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="__ab40AslEeKyDYBuDnIhzA" featurename="commands" parentElementId="com.example.e4.rcp.todo.application">
+    <elements xsi:type="commands:Command" xmi:id="_PK8kMAsmEeKyDYBuDnIhzA" elementId="com.example.e4.rcp.css.command.switchTheme" commandName="Switch Theme"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_oKmNwAsoEeKyDYBuDnIhzA" featurename="handlers" parentElementId="com.example.e4.rcp.todo.application">
+    <elements xsi:type="commands:Handler" xmi:id="_oKmNwQsoEeKyDYBuDnIhzA" elementId="com.example.e4.rcp.css.handler.themeSwitchHandler" contributionURI="bundleclass://com.example.e4.rcp.css/com.example.e4.rcp.css.internal.handlers.ThemeSwitchHandler" command="_PK8kMAsmEeKyDYBuDnIhzA"/>
+  </fragments>
+  <fragments xsi:type="fragment:StringModelFragment" xmi:id="_pFpLoAsmEeKyDYBuDnIhzA" featurename="children" parentElementId="com.example.e4.rcp.todo.menu.edit">
+    <elements xsi:type="menu:HandledMenuItem" xmi:id="_xxN0oAsmEeKyDYBuDnIhzA" elementId="com.example.e4.rcp.css.handledmenuitem.themSwitch" label="Switch Theme" command="_PK8kMAsmEeKyDYBuDnIhzA"/>
+  </fragments>
+</fragment:ModelFragments>

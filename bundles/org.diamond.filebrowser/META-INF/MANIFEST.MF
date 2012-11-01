@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Filebrowser
+Bundle-SymbolicName: org.diamond.filebrowser;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Require-Bundle: javax.annotation,
+ javax.inject,
+ org.eclipse.e4.ui.di;bundle-version="0.10.1",
+ org.eclipse.swt;bundle-version="3.100.1",
+ org.eclipse.jface;bundle-version="3.8.101"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
